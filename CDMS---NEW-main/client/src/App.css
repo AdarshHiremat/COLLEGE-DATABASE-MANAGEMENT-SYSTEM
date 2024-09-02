@@ -1,0 +1,522 @@
+.navbar-brand.head{
+    color:rgb(8, 28, 2);
+    text-decoration:solid;
+    font-size: 1.7vmax;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left:30px;
+}
+
+.navbar-brand:hover{
+    cursor: pointer;
+}
+
+nav.navbar.navbar-expand-lg{
+    background-color: rgb(255, 153, 0);
+    /* background-color: #666666; */
+}
+
+a.nav-link{
+    font-size: 1.3vmax;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+a.nav-link.active{
+    margin-left: 150px;
+}
+
+a.nav-link{
+    margin-left: 20px;
+}
+
+button.loginButton{
+    background-color: rgb(255, 136, 0);
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 1.3vmax;
+    font-weight: 500;
+    padding: 6px;
+    color: white;
+    border: 1px solid rgb(255, 60, 0);
+    margin-right: 5px;
+    width: 100px;
+}
+
+button.signUpButton{
+    background-color: rgb(47, 142, 250);
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-size: 1.3vmax;
+    font-weight: 500;
+    padding: 6px;
+    color: white;
+    border: 1px solid rgb(0, 60, 255);
+    width: 150px;
+}
+
+button.loginButton:hover{
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+}
+
+button.signUpButton:hover{
+    cursor: pointer;
+    background-color: rgb(0, 119, 255);
+}
+
+.foot{
+    width:100%;
+    clear:both;
+    background-color:rgb(255, 153, 0);
+    /* background-color: #666666; */
+    height: auto;
+    bottom: 0;
+}
+
+.fa.fa-facebook ,.fa.fa-instagram , .fa.fa-linkedin,.fa.fa-youtube, .fa.fa-twitter{
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+  }
+
+.admin{
+    margin-top: 80px;
+    margin-left: 350px;
+}
+.admin button{
+    width: 200px;
+    height: 200px;
+    font-size: 1.5vmax;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.admin button.second{
+    margin-top: 40px;
+}
+
+button.btn{
+    font-size: 1.3vmax;
+}
+
+.formUsername input, .formPassword input{
+    width: 300px;
+    margin-left: 25px;
+
+}
+
+.formPassword label, .formUsername label{
+    font-size: large;
+    font-weight: 500;
+}
+
+.modal-title h4{
+    text-align: center;
+    justify-content: center;
+}
+
+#webpage{
+    background-color: rgb(255, 229, 162);
+    /* background-color: whitesmoke; */
+}
+.nav-link.p-0{
+    color: rgb(48, 44, 44);
+}
+
+.nav-link.p-0:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.formLabel{
+    margin-top: 10px;
+}
+
+.campus{
+    width: 90%;
+    margin-left: 5%;
+    height: 25%;
+}
+.campus h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+img.campusImage{
+    height: 550px;
+    width: 200px;
+    margin-bottom: 3%;
+}
+
+.images{
+    background-color: rgba(0, 0, 0, 0.664);
+    margin-bottom: 5%;
+}
+
+.campusGallery{
+    margin-top: 5%;
+    width: 100%;
+    /* background-color: rgba(92, 92, 251, 0.612); */
+}
+
+.about{
+    width: 100%;
+    height: 20%;
+    margin-top: 2%;
+    /* background-color: rgb(28, 21, 9); */
+}
+
+.aboutImage{
+    border-radius: 50%;
+    float: right;
+    margin-right: 10%;
+}
+
+.aboutContent p{
+    width: 55%;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: large;
+    float: left;
+    margin-top: 3%;
+}
+.aboutContent h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.cseStudents{
+    margin-top: 10px;
+}
+
+.addStudentButton{
+    float: left;
+    margin: 10px 8px;
+}
+
+.cseStudentsTable{
+    width: 90%;
+    align-self: center;
+    margin-top: 1%;
+    margin-left: 4%;
+}
+
+.cseStudentEditButton{
+    font-size: medium;
+    background-color: rgba(86, 86, 255, 0.738);
+    color: white;
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cseStudentEditButton:hover{
+    background-color: rgba(0, 0, 255, 0.738);
+
+}
+
+.cseStudentDeleteButton{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    border-radius: 15px;
+    height: 40px;
+    background-color: rgba(211, 59, 25, 0.907);
+    width: 80%;
+}
+
+.cseStudentDeleteButton:hover{
+    background-color: rgb(255, 47, 0);
+
+}
+
+.updateCseStudentForm{
+    border: 1px solid black;
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.updateCseStudentForm h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    background-color: rgba(79, 79, 255, 0.847);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.updateCseStudentButton{
+    float: right;
+    margin-top: 10px;
+}
+
+.updateLabel{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.updateInput{
+    background-color: aquamarine;
+}
+
+input.form-control{
+    border: 1px solid black;
+}
+
+.deleteCseStudentForm h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    background-color: rgb(255, 4, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.deleteCseStudentForm{
+    border: 1px solid black;
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.deleteCseStudentButton{
+    float: right;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.cseStudentsTable th{
+    background-color: #c497ff;
+    border: 1px solid black;
+    height: 80px;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-weight: 1000; */
+}
+
+
+.cseStudentsTable td{
+    background-color: #e5d3ff;
+    border: 1px solid black;
+    height: 60px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cseStudentsTable table, tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.modal-title h4{
+    text-align: center;
+}
+
+.searchButton input.form-control{
+    width: 200px;
+    float: right;
+    margin: 15px 8px;
+}
+
+.searchButton button{
+    float: right;
+    margin: 10px 8px;
+    /* height: 30px; */
+}
+
+.fetchCseStudentForm h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    background-color: rgb(0, 128, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.fetchCseStudentForm{
+    border: 1px solid black;
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 7%
+}
+
+.cseStudentData h1{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.dataNotFound{
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 40%;
+    height: 150px;
+    margin-left: 35%;
+    margin-top: 15%;
+    background-color: rgba(2, 2, 2, 0.826);
+    text-align: center;
+}
+
+.dataNotFound h1{
+    color: red;
+}
+
+.dataNotFound h4{
+    color: rgb(243, 238, 238);
+}
+
+.facultyDropdown{
+    margin-top: 15%;
+    margin-left: 35%;
+}
+
+a.nav-link.dropdown-toggle.choose{
+    font-size: xx-large;
+}
+
+a.dropdown-item{
+    font-size: larger;
+}
+
+.studentDetails{
+    width: 30%;
+    align-items: stretch;
+    margin-top: 2%;
+    margin-left: 30%;
+    align-items: center;
+}
+
+.studentDetails h1{
+    margin-left: 150px;
+}
+
+.carousel{
+    margin-top: 3%;
+    margin-bottom: 50px;
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.carousel_items{
+    display: flex;
+    animation: carousel 5s linear infinite;
+}
+
+.carousel_img{
+    box-sizing: border-box; 
+    padding: 3px;
+    display: block;
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+}
+
+@keyframes carousel{
+    100%{
+        transform: translateX(-1000px)
+    }
+}
+
+.companies{
+    margin-top: 5%;
+    /* background-color: white; */
+}
+
+.companies h1{
+    margin-left: 40%;
+}
+
+.carousel.slide{
+    width:50%;
+    float:right;
+    text-align: center;
+    margin-right: 1%;
+  }
+  .slider-img{
+    width:720px;
+    height:480px;
+    border-radius: 1%;
+  }
+
+.events{
+    width: 45%;
+    float:top;
+    margin-top: 4%;
+    margin-left: 1%;
+    border: 1px solid black;
+    height: 450px;
+}
+
+.events h2{
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+}
+
+.ahead li{
+    list-style-type:square;
+}
+
+.ahead li{
+    color: #0b0b0a;
+    left: -0.8em;
+    top: 0.03em;          
+}
+  
+.ahead
+{
+    padding: 23% 5% ;
+    position:relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.ahead ul{
+    position: absolute;
+    animation: scroll 10s linear infinite; /*Adjust animation duration as needed */
+    padding-right: 3%;
+}
+
+@keyframes scroll {
+0% {
+    top: 100%;
+}
+100% {
+    top: -100%;
+}
+}
+
+.Vision{
+    margin-top: 25%;
+    width: 90%;
+    margin-left: 4%;
+    text-align: left;
+    background-color: #e48e0c74;
+    padding: 20px;
+}
+
+.Vision h2{
+    text-align: center;
+}
+
+.Vision p{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
